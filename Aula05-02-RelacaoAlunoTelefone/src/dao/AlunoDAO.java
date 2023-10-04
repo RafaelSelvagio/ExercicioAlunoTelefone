@@ -15,10 +15,6 @@ public class AlunoDAO {
     private static final String USUARIO = "root";
     private static final String SENHA = "aluno";
     private Connection connection;
-
-    public AlunoDAO() {
-        
-    }
     
  // Método para abrir uma conexão com o banco de dados
     public void abreConexao() throws SQLException {
