@@ -16,10 +16,6 @@ public class AlunoTelefoneDAO {
     private static final String SENHA = "aluno";
     private Connection connection;
 
-    public AlunoTelefoneDAO(Connection connection) {
-        this.connection = connection;
-    }
-
     // Método para abrir uma conexão com o banco de dados
     public void abreConexao() throws SQLException {
     	try {
