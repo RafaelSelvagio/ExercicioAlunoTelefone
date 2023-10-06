@@ -14,6 +14,6 @@ CREATE TABLE aluno_telefone (
   id_telefone int NOT NULL PRIMARY KEY ,
   id_aluno int DEFAULT NULL,
   telefone varchar(15) DEFAULT NULL,
- CONSTRAINT fk_aluno_telefone FOREIGN KEY (id_aluno) REFERENCES aluno (id_aluno)
+ CONSTRAINT fk_aluno_telefone FOREIGN KEY (id_aluno) REFERENCES aluno (id_aluno) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
